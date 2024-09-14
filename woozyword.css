@@ -1,0 +1,220 @@
+body {
+
+    position: fixed;
+    top: 175px;
+    left: 100px;
+    margin: 5px;
+    text-color: blue;
+    font-family: arial;
+}
+
+h1 {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px 0px 0px;
+    padding: 35px;
+    background-color: rgb(87, 191, 61);
+    color: white;
+    font-size: 36pt;
+}
+
+footer {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px 0px 0px;
+    padding: 15px;
+    background-color: rgb(87, 191, 61);
+    color: white;
+    font-size: 24pt;
+}
+
+#enterButton, #backButton {
+
+    position: fixed;
+    justify-content: center;
+    margin: 3px;
+    border: 3px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+#enterButton {
+
+    top: 426px;
+    left: 15px;
+    padding: 7px;
+    font: 40px arial;
+}
+
+#backButton {
+
+    top: 425px;
+    left: 665px;
+    padding: 7px;
+    font: 40px arial;
+}
+
+#enterButton:hover, #backButton:hover {
+
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+#letters1, #letters2, #letters3 {
+
+    position: fixed;
+    font: 50px arial;
+    margin: 3px;
+    
+    display: grid;
+    grid-template-rows: 65px;
+    grid-gap: 10px;
+}
+
+#letters1 {
+
+    top: 275px;
+    left: 30px;
+    
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px;
+}
+
+#letters2 {
+
+    top: 350px;
+    left: 65px;
+    
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px;
+}
+
+#letters3 {
+
+    top: 425px;
+    left: 140px;
+
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px;
+}
+
+#letters1 > button, #letters2 > button, #letters3 > button {
+
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+#letters1 > button:hover, #letters2 > button:hover, #letters3 > button:hover {
+
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+#newGameButton {
+
+    position: fixed;
+    top: 600px;
+    left: 75px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(41, 123, 255);
+    color: white;
+    font-size: 18pt;
+}
+
+#newGameButton:hover {
+
+    background-color: rgb(92, 154, 255);
+    cursor: pointer;
+}
+
+#gamePrompt {
+
+    position: fixed;
+    top: 495px;
+    left: 75px;
+    color: black;
+    font-size: 26pt;
+}
+
+#grid {
+
+    position: fixed;
+    top: 151px;
+    left: 800px;
+    font: 64px arial;
+    margin: 3px;
+
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-gap: 5px;
+}
+
+#grid > div {
+
+    border: 3px solid rgb(163, 163, 163);
+    background-color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+#distributionGraph {
+
+    position: fixed;
+    top: 270px;
+    left: 1250px;
+    font: 32px arial;
+    margin: 3px;
+
+    display: grid;
+    grid-template-columns: 50px 350px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 3px;
+}
+
+#label1, #label2, #label3, #label4, #label5, #label6 {
+
+
+}
+
+#bar1, #bar2, #bar3, #bar4, #bar5, #bar6 {
+
+    background-color: rgb(125, 125, 125);
+    text-align: center;
+    font-family: inherit;
+}
+
+.menuButton {
+
+    position: fixed;
+    top: 32px;
+    left: 340px;
+    background-color: rgb(41, 123, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menuButton:hover {
+
+    background-color: rgb(92, 154, 255);
+    cursor: pointer;
+}
